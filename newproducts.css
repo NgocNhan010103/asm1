@@ -1,0 +1,196 @@
+.myhome a:hover {
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+.myhome {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.category-new-products {
+    padding-top: 20px;
+    float: left;
+    width: 20%;
+}
+
+.category-new-products a {
+    color: black;
+    text-decoration: none;
+    padding-top: 50px;
+    left: 30px;
+}
+
+.myhome a {
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+    padding-top: 50px;
+    left: 30px;
+}
+
+hr {
+    width: 170px;
+}
+
+.color {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 280px;
+    height: 260px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+.size {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 240px;
+    height: 140px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+.price {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 240px;
+    height: 120px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+.color a,
+.size a,
+.price a {
+    margin: 20px;
+}
+
+.color .botton {
+    width: 100%;
+    height: 20px;
+}
+
+.bot1 {
+    width: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: black;
+}
+
+.bot2 {
+    width: 40px;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    color: deepskyblue;
+}
+
+.bot3 {
+    width: 40px;
+    border-radius: 10px;
+    background-color: chartreuse;
+    color: chartreuse;
+}
+
+.bot4 {
+    width: 40px;
+    border-radius: 10px;
+    background-color: violet;
+    color: violet;
+}
+
+.bot5 {
+    width: 40px;
+    border-radius: 10px;
+    background-color: red;
+    color: red;
+}
+
+.bot6 {
+    width: 40px;
+    border-radius: 10px;
+    background-color: white;
+    color: white;
+}
+
+.bot7 {
+    width: 40px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    color: antiquewhite;
+}
+
+.newp {
+    margin-right: 50px;
+    padding-left: 5px;
+    float: left;
+    width: 80%;
+}
+
+.sp1 {
+    display: flex;
+    float: left;
+}
+
+.newp p {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+    width: 100%;
+    height: 100%;
+}
+
+.pro1,
+.pro2,
+.pro3,
+.pro4 {
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+    float: left;
+    color: black;
+    width: 280px;
+    position: relative;
+}
+
+
+.sp1 .pro1:hover .visible,
+.sp1 .pro2:hover .visible,
+.sp1 .pro3:hover .visible,
+.sp1 .pro4:hover .visible {
+    visibility: visible;
+    transition: 1s;
+}
+
+.visible {
+    visibility: hidden;
+    position: absolute;
+    width: 98;
+    height: 500px;
+    z-index: 89;
+    border: 2px solid black;
+    top: 20px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 5px grey;
+}
+
+.visible .textpro {
+    padding-top: 0;
+    width: 100%;
+    color: black;
+}
+
+.textpro button {
+    background-color: black;
+    color: white;
+}
+
+.clr {
+    color: blue;
+}

@@ -1,0 +1,135 @@
+.Infor-p {
+    width: 60%;
+    padding-top: 20px;
+    float: left;
+    flex-direction: column;
+}
+
+.add-to-cart {
+    width: 40%;
+    padding-left: 20px;
+    float: left;
+    padding-top: 40px;
+    margin-right: 50px;
+}
+
+.product1,
+.product2 {
+    display: flex;
+    padding-top: 5px;
+}
+
+.pr1 a,
+.pr2 a,
+.pr3 a,
+.pr4 a {
+    float: left;
+    padding: 5px;
+}
+
+.add-to-cart .button {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    background-color: dimgray;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 7px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn:active {
+    background-color: black;
+}
+
+.cl,
+.sz {
+    width: 30px;
+    height: 28px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    border: none;
+}
+
+.cl:active,
+.sz:active {
+    border: 2px solid black;
+}
+
+.chosecolor {
+    margin-top: 40px;
+}
+
+.sharing {
+    text-align: center;
+}
+
+.sharing a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.sharing a:hover {
+    color: red;
+}
+
+.if {
+    margin-top: 40px;
+    padding-left: 10px;
+    float: left;
+}
+
+.describes,
+.details,
+.deliveries {
+    margin-top: 10px;
+}
+
+.describes summary,
+.details summary,
+.deliveries summary {
+    color: gray;
+    text-decoration: none;
+}
+
+.describes summary:hover,
+.details summary:hover,
+.deliveries summary:hover {
+    color: red;
+}
+
+.text {
+    margin-top: 10px;
+    color: gray;
+}
+
+.text hr {
+    width: 100%;
+}
+
+.hr {
+    margin-top: 100px;
+    width: 80%;
+    color: gray;
+}
+
+.interested {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.spa {
+    margin-left: 300px;
+    margin-right: 300px;
+}

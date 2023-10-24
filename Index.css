@@ -1,0 +1,627 @@
+* {
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+li {
+    list-style: none;
+}
+
+.web {
+    width: 100%;
+
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    padding: 5px 50px;
+    z-index: 90;
+    background-color: white;
+    left: 0;
+    padding-bottom: 90px;
+}
+
+.nav a:hover,
+.user a:hover,
+.cart a:hover {
+    color: dodgerblue;
+}
+
+.Email p:hover,
+.Hotline p:hover {
+    color: red;
+}
+
+#icon-home {
+    position: fixed;
+}
+
+.nav a {
+    z-index: 96;
+    font-size: 20px;
+    left: 20px;
+    color: black;
+    top: 26px;
+    text-decoration: none;
+}
+
+.menu {
+    margin-top: 60px;
+}
+
+.menu hr {
+    width: 100%;
+}
+
+.nav>li:hover .category {
+    visibility: visible;
+    transition: 0.6s;
+}
+
+.category {
+    z-index: 95;
+    position: fixed;
+    padding: 10px 0 10px 20px;
+    height: 100vw;
+    margin-top: -20px;
+    left: 0px;
+    right: 85%;
+    visibility: hidden;
+    backdrop-filter: blur(40px);
+}
+
+.Name h2 {
+    position: absolute;
+    top: 0;
+    left: 140px;
+
+}
+
+.Name p {
+    position: absolute;
+    top: 27px;
+    left: 70px;
+}
+
+.Hotline p {
+    position: absolute;
+    top: 5px;
+    font-size: 15px;
+    color: black;
+    left: 500px;
+}
+
+.Email p {
+    position: absolute;
+    top: 5px;
+    font-size: 15px;
+    color: black;
+    left: 650px;
+}
+
+.search input {
+    position: absolute;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    right: 120px;
+    top: 22px;
+}
+
+.search i {
+    font-size: 15px;
+    position: absolute;
+    right: 120px;
+    top: 22px;
+    color: black;
+}
+
+.user a {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    color: black;
+}
+
+.cart a {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    color: black;
+}
+
+.Option {
+    overflow: hidden;
+    position: absolute;
+    top: 66px;
+    display: flex;
+    width: 100%;
+    background: transparent;
+    left: 500px;
+    height: 30px;
+}
+
+.Option li:hover .type {
+    visibility: visible;
+}
+
+.type {
+    float: left;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 29vw;
+    top: 89px;
+    left: 0px;
+    visibility: hidden;
+    text-align: center;
+    background-color: white;
+}
+
+.col:hover .imghover {
+    visibility: visible;
+}
+
+.imghover {
+    background-color: red;
+    position: absolute;
+    visibility: hidden;
+    float: right;
+    padding: 20px;
+}
+
+.type .img {
+    padding-left: 130px;
+}
+
+.type .img1 {
+    padding-left: 220px;
+}
+
+.video {
+    display: flex;
+}
+
+.video video {
+    margin-right: 40px;
+}
+
+.image-slider {
+    position: relative;
+    width: 800px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.image-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+
+
+.type .img img,
+.type .img1 img {
+    height: 26vw;
+    padding-top: 30px;
+}
+
+.col li {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    top: 20px;
+    text-decoration: none;
+}
+
+
+.col img {
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.col a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    width: 190px;
+    height: 100px;
+    left: 0px;
+}
+
+.type a:hover {
+    color: deepskyblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.Option .ty {
+    font-size: 12px;
+    color: black;
+    align-items: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.Option .ty:hover {
+    border-bottom: 3px solid black;
+}
+
+.hr-divider {
+    position: absolute;
+    width: 100%;
+    top: 92%;
+    color: black;
+    left: 0px;
+}
+
+.Homepage {
+    position: absolute;
+    top: 100px;
+    background-color: white;
+    z-index: 88;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slide img {
+    position: relative;
+    width: 98%;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.slider i {
+    text-align: center;
+    width: 50%;
+    top: 12%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.slider a {
+    color: white;
+}
+
+.slider a:hover {
+    color: deepskyblue;
+}
+
+.nab,
+.flashSale {
+    padding-left: 30px;
+    display: flex;
+}
+
+.hr1 {
+    margin-top: 70px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.h11 {
+    margin-top: 140px;
+    margin-left: 10px;
+    width: 25%;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+.Newproduct,
+.trending,
+.bestseller {
+    margin: 5px;
+    float: left;
+    color: black;
+    text-align: center;
+    height: 470px;
+    position: relative;
+    width: 25%;
+}
+
+.nab .head {
+    position: absolute;
+    text-align: center;
+    top: 440px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    z-index: 101;
+}
+
+.Newproduct a,
+.trending a,
+.bestseller a,
+.h11 a {
+    color: black;
+    padding-top: 520px;
+}
+
+
+.Newproduct:hover .hiden,
+.trending:hover .hiden,
+.bestseller:hover .hiden {
+    box-shadow: 0 0 60px grey;
+    visibility: visible;
+}
+
+.hiden {
+    position: absolute;
+    visibility: hidden;
+    height: 550px;
+    backdrop-filter: blur(10px);
+    top: 0;
+    width: 100%;
+}
+
+.hiden .img {
+    Width: 60%;
+    height: 50%;
+}
+
+.shopnow {
+    position: absolute;
+    bottom: 30px;
+}
+
+
+.images1,
+.images2,
+.images3 {
+    width: 100%;
+    z-index: 100;
+}
+
+
+.Newproduct a:hover,
+.trending a:hover,
+.bestseller a:hover,
+.h11 a:hover {
+    color: deepskyblue;
+}
+
+.imgflashsale {
+    float: left;
+    width: 60%;
+    display: flex;
+}
+
+.textflashsale {
+    width: 40%;
+
+}
+
+.buy {
+    width: 100%;
+    text-align: center;
+}
+
+.buy a {
+    padding: 30px;
+    color: black;
+}
+
+.buy a:hover {
+    color: deepskyblue;
+}
+
+.timeslot,
+.saturday,
+.sunday {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.sunday i,
+.saturday i {
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    margin: 30px;
+    padding: 5px;
+}
+
+.flashSale {
+    position: relative;
+}
+
+.flashSale .imgflashsale:hover .hidden {
+    box-shadow: 0 0 60px black;
+    visibility: visible;
+}
+
+.hidden {
+    position: absolute;
+    visibility: hidden;
+    width: 59%;
+    height: 99%;
+    backdrop-filter: blur(20px);
+}
+
+.spt p {
+    padding-left: 20px;
+}
+
+
+.textflashsale {
+    float: left;
+    width: 40%;
+}
+
+.textflashsale i {
+    position: absolute;
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.textflashsale h3 {
+    margin-top: 60px;
+    padding-right: 30px;
+}
+
+.flashsale {
+    width: 100%;
+    float: left;
+}
+
+.endpage {
+    position: absolute;
+    height: 420px;
+    background-color: gray;
+    margin-top: 70px;
+    margin-left: 0px;
+    left: 0;
+    width: 100%
+}
+
+
+.contact {
+    position: absolute;
+    background: transparent;
+
+    width: 100%;
+    display: flex;
+}
+
+.company {
+    margin-left: 100px;
+    padding-top: 170px;
+}
+
+.company a {
+    color: #fff;
+}
+
+.Shopping {
+    float: left;
+    width: 20%;
+    padding-left: 100px;
+}
+
+.customer,
+.about,
+.information {
+    float: left;
+    width: 25%;
+    padding-left: 100px;
+}
+
+.Shopping a,
+.Shopping p,
+.customer a,
+.customer p,
+.about a,
+.about p,
+.information a,
+.information p,
+.text a {
+    color: white;
+    text-decoration: none;
+}
+
+.information a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.Shopping a:hover,
+.customer a:hover,
+.about a:hover,
+.text .href:hover {
+    border-bottom: 1px solid white;
+}
+
+.information a:hover {
+    color: blue;
+}
+
+.spotlight {
+    display: flex;
+    text-align: center;
+}
+
+.spotlight a {
+    color: black;
+    margin-left: 10px;
+}
+
+.spotlight a:hover {
+    color: deepskyblue;
+
+}
+
+.sli1 {
+    width: 96%;
+}
+
+.slid {
+    width: 32.4%;
+    margin-top: 7px;
+}
+
+.slid1 {
+    width: 36%;
+}
+
+.elegance i {
+    text-align: center;
+    margin-left: 40px;
+}
